@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Семантический анализ</title>
+    <style media='print' type='text/css'>
+        #navbar-iframe {
+            display: none;
+            height: 0px;
+            visibility: hidden;
+        }
+
+        .noprint {
+            display: none;
+        }
+
+        body {
+            background: #FFF;
+            color: #000;
+        }
+
+        a {
+            text-decoration: underline;
+            color: #00F;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="noprint">
+        {% include 'navigation.html' %}
+    </span>
+    <h3>Результат семантического анализа</h3>
+    {% for key, value in words.items() %}
+    <li>{{ key }} <pre>{{ words[key] }}</pre></li>
+    {% endfor %}
+
+    <input type="button" value="Печать" onclick="print()" class="noprint" />
+</body>
+
+</html>

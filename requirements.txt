@@ -1,0 +1,17 @@
+autopep8==1.5.2
+click==7.1.2
+Flask==1.1.2
+Flask-WTF==0.14.3
+itsdangerous==1.1.0
+Jinja2==2.11.2
+joblib==0.14.1
+lxml==4.5.0
+MarkupSafe==1.1.1
+nltk==3.5
+numpy==1.18.3
+pycodestyle==2.5.0
+python-docx==0.8.10
+regex==2020.4.4
+tqdm==4.45.0
+Werkzeug==1.0.1
+WTForms==2.3.1
